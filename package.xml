@@ -2,7 +2,7 @@
 <package>
   <name>dynamixel_urdf</name>
   <version>0.0.0</version>
-  <description>Meshes and urdf definitions for various dynamixel servos.</description>
+  <description>Meshes and URDF definitions for various dynamixel servos.</description>
 
   <maintainer email="dgossow@gmail.com">dgossow</maintainer>
   <license>BSD</license>

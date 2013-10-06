@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 2.8.3)
+project(dynamixel_urdf)
+
+find_package(catkin REQUIRED)
+
+install(DIRECTORY meshes
+  DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
+)
+install(DIRECTORY urdf
+  DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
+)

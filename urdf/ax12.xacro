@@ -66,10 +66,10 @@
     </link>
   </macro>
 
-  <macro name="ax12_side_revolute" params="name parent llimit ulimit vlimit color *origin" >
+  <macro name="ax12_side_revolute" params="name parent llimit ulimit vlimit color axis *origin" >
     <joint name="${name}_joint" type="revolute">
       <insert_block name="origin" />
-      <axis xyz="0 0 1"/>
+      <axis xyz="${axis}"/>
       <limit effort="30" velocity="${vlimit}" lower="${llimit}" upper="${ulimit}" />
       <parent link="${parent}"/>
       <child link="${name}_link" />

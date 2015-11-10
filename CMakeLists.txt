@@ -3,6 +3,8 @@ project(dynamixel_urdf)
 
 find_package(catkin REQUIRED)
 
+catkin_package()
+
 install(DIRECTORY meshes
   DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
 )
